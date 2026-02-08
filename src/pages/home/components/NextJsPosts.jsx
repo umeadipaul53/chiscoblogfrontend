@@ -31,7 +31,7 @@ const NextJsPosts = () => {
             <article className="ent-card" key={post._id}>
               <div className="image-wrapper">
                 <img src={post.imageUrl.url} alt={post.title} />
-                <span className="badge">C++ post</span>
+                <span className="badge">NextJs post</span>
               </div>
 
               <h2 className="title">{post.title}</h2>
